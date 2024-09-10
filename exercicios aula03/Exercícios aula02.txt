@@ -1,0 +1,113 @@
+1.
+um= "Oi";
+Um= 2;
+UM= false;
+
+console.log(typeof(um), typeof(Um), typeof(UM))
+
+2.
+const sobrenome= "Vieira";
+const nome= "Bruno";
+full = (nome + sobrenome)
+temp_strings = (`${nome} ${sobrenome}`)
+
+console.log(full)
+console.log(temp_strings)
+
+3.
+idade = 18
+nome = "Bruno"
+op = (`Olá, meu nome é ${nome}, e tenho ${idade} anos de idade.`)
+
+console.log(op)
+
+4.
+idade = 18
+console.log(idade)
+idade = 19
+console.log(idade)
+
+5.
+var aula = 2;
+let aluno = "Bruno"
+if (1 > 0) {
+var turma = "A";
+let aluno2 = "Camila"
+}
+
+console.log(turma, aula)
+console.log(aluno, aluno2) // A variável let aluno2, faz com que o programa resulte em erro, por estar dentro do bloco da função. Só são mostradas as variáveis dentro de blocos de função que sejam denominadas por "var"
+
+6.
+rain = 'False' 
+
+if (rain == 'True')
+    console.log("You should take your umbrella with you.")
+else (rain == 'False')
+    console.log("Don't worry! It's not raining outside")
+
+7.
+n1 = 8
+n2 = 9
+n3 = 5.5
+media= (n1+n2+n3)/3
+
+console.log(media)
+
+8.
+base= 2.0
+altura = 3.0
+area = (base*altura)/2
+
+console.log(`Área do triângulo é de ${area}cm`)
+
+9.
+r= 2
+pi = 3.14
+area = pi*(r**2)
+
+console.log(`Área do círculo é de ${area}cm`)
+
+10.
+V = 135 
+I = 5 
+R = (V*I)
+
+console.log("Resistência:", R)
+
+11.
+salario = 1000
+ir = (salario/10)*2
+sl_liq = salario - ir
+
+console.log("Salário líquido é de: ", sl_liq)
+
+12.
+litros = 50 // Quantidade em litros que será abastecido
+valor = (litros*5.50)
+
+console.log(`Valor a ser pago: R$${valor}`)
+
+13.
+horas = 25*8
+consumo = 1750*horas
+custo = 0.75*consumo
+console.log(`O valor é R$${custo}`)
+
+14.
+n1 = 9
+n2 = 8
+n3 = 7
+media = (n1+n2+n3)/3
+
+if (media >= 6)
+    console.log("Aprovado")
+else
+    console.log("Reprovado, agendar exame")
+
+15.
+peso = 65
+altura = 181
+imc = peso/(altura**2)
+
+console.log("Seu IMC:", imc)
